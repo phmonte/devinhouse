@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja</title>
+
+    <style type="text/css">
+      .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        background-color: #a8c0ce;
+      }
+
+      nav {
+        width: 100%;
+        background-color: #aab0b5;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      picture {
+        height: 300px;
+        background-color: #bdced8;
+      }
+
+      img{
+          width: 100%;
+          height: 100%;
+      }
+
+      article{
+        height: 300px;
+        background-color: #768591;
+      }
+
+      @media screen and (max-width: 576px){
+          #imagem2{
+              display: block !important;
+            }
+
+           #imagem1{
+               display: none;
+           } 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Loja</h1>
+      </header>
+      <nav>
+        <ul>
+          <li>Casa -</li>
+          <li>Eletrônico -</li>
+          <li>Carro</li>
+        </ul>
+      </nav>
+
+        <picture>
+          <img id="imagem1" src="https://dummyimage.com/576x200/000/fff&text=" alt="Flowers" >
+          <img id="imagem2" style="display: none;" src="https://dummyimage.com/576x200/a8c0ce/fff&text=Imagem+1" alt="Flowers" >
+        </picture>
+  
+
+      <article>
+        <h3>Título</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          aliquid totam voluptatem harum possimus labore porro doloribus optio,
+          repudiandae amet sint aliquam repellendus ut quis ducimus id nostrum
+          ipsa numquam!
+        </p>
+      </article>
+      <div class="johann"></div>
+    </div>
+
+  </body>
+</html>
