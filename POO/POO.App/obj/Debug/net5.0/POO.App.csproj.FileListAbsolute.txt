@@ -1,0 +1,16 @@
+C:\pessoais\devinhouse\POO\POO.App\bin\Debug\net5.0\POO.App.exe
+C:\pessoais\devinhouse\POO\POO.App\bin\Debug\net5.0\POO.App.deps.json
+C:\pessoais\devinhouse\POO\POO.App\bin\Debug\net5.0\POO.App.runtimeconfig.json
+C:\pessoais\devinhouse\POO\POO.App\bin\Debug\net5.0\POO.App.runtimeconfig.dev.json
+C:\pessoais\devinhouse\POO\POO.App\bin\Debug\net5.0\POO.App.dll
+C:\pessoais\devinhouse\POO\POO.App\bin\Debug\net5.0\ref\POO.App.dll
+C:\pessoais\devinhouse\POO\POO.App\bin\Debug\net5.0\POO.App.pdb
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\POO.App.csproj.AssemblyReference.cache
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\POO.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\POO.App.AssemblyInfoInputs.cache
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\POO.App.AssemblyInfo.cs
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\POO.App.csproj.CoreCompileInputs.cache
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\POO.App.dll
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\ref\POO.App.dll
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\POO.App.pdb
+C:\pessoais\devinhouse\POO\POO.App\obj\Debug\net5.0\POO.App.genruntimeconfig.cache
