@@ -13,26 +13,23 @@ namespace POO.App.Api.Controllers
     {
         [HttpGet]
         public List<Veiculo> Get(){
-
-            var listaVeiculos = Mock.GetVeiculo();
-
+            var listaVeiculos = Mock.Veiculos;
             return listaVeiculos;
         }
 
-        [HttpPost("{ano}")]
-        public List<Veiculo> Post(int ano)
+        [HttpPost("acelerar/{id}")]
+        public List<Veiculo> Acelerar(int id)
         {
-            var anoParametro = new List<Veiculo>();
-            var listaVeiculos = Mock.GetVeiculo();
-
+            var listaVeiculos = Mock.Veiculos;
             foreach (var item in listaVeiculos)
             {
-                if(item.Ano == ano)
+                if(item.Id == id)
                 {
-                    anoParametro.Add(item);
+                    item.Acelerar(1);
                 }
             }
-            return anoParametro;
+            Mock.Veiculos = listaVeiculos;
+            return listaVeiculos;
         }
     }
 }

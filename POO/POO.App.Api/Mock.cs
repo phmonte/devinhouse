@@ -7,7 +7,8 @@ namespace POO.App.Api
 {
     public class Mock
     {
-        public static List<Veiculo> GetVeiculo()
+        public static List<Veiculo> Veiculos = GetVeiculo();
+        private static List<Veiculo> GetVeiculo()
         {
             var veiculos = new List<Veiculo>();
 
