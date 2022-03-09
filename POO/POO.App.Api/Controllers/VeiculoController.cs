@@ -14,18 +14,25 @@ namespace POO.App.Api.Controllers
         [HttpGet]
         public List<Veiculo> Get(){
 
-            var listaVeiculo = new List<Veiculo>();
-          
-            Carro fiesta = new Carro("Fiesta", 97);
-            Moto honda = new Moto("CG 150");
+            var listaVeiculos = Mock.GetVeiculo();
 
-            honda.Acelerar(1);
-            fiesta.Acelerar(2);
+            return listaVeiculos;
+        }
 
-            listaVeiculo.Add(fiesta);
-            listaVeiculo.Add(honda);
+        [HttpPost("{ano}")]
+        public List<Veiculo> Post(int ano)
+        {
+            var anoParametro = new List<Veiculo>();
+            var listaVeiculos = Mock.GetVeiculo();
 
-            return listaVeiculo;
+            foreach (var item in listaVeiculos)
+            {
+                if(item.Ano == ano)
+                {
+                    anoParametro.Add(item);
+                }
+            }
+            return anoParametro;
         }
     }
 }

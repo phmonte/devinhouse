@@ -12,6 +12,7 @@ namespace POO.App.Api
         public string Modelo { get; set; }
         public int Ano { get; set; }
         public int VelocidadeAtual { get; private set; }
+        public int VelocidadeAnterior { get; private set; }
 
         public Veiculo(string nome)
         {
